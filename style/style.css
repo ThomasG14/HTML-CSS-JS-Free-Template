@@ -195,6 +195,55 @@ i
 
 
 
+/*---------- BANNER ---------- */
+
+.home-banner
+{
+	background-image: url("../img/banner2.jpg");
+	background-position: center;
+	background-size: cover;
+	max-width: 100%;
+	height: 600px;
+}
+
+.banner-title
+{
+	color: #E0E1DD;
+	font-size: 40px;
+	font-family: 'Trebuchet MS';
+	text-align: center;
+	padding-top: 260px;
+}
+.banner-subtitle
+{
+	color: #E0E1DD;
+	font-size: 20px;
+	font-family: 'Trebuchet MS';
+	text-align: center;
+}
+
+
+	/*---------- BANNER-RESPONSIVE ---------- */
+    @media screen and (max-width: 990px)
+    {
+	 	.banner-title
+		{
+			font-size: 42px;
+		}
+		.banner-subtitle
+		{
+			font-size: 22px;
+	    }
+	}
+    /*---------- BANNER / END ---------- */
+
+/*---------- BANNER / END ---------- */
+
+
+
+
+
+
 /*---------- FOOTER ---------- */
 
 
@@ -261,7 +310,7 @@ i
 		{
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
+			align-items:  center;
 		}
 
 		.footer-left
