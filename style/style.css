@@ -69,9 +69,9 @@ i
 
 .nav-logo img
 {
-	width: 50px;
+	width: 35%;
 	height: auto;
-	padding: 5px;
+	margin: 5px;
 }
 
 .toggle
@@ -94,14 +94,15 @@ i
 .nav-link
 {
 	list-style: none;
-	padding: 10px 20px;
+	padding: 10px 10px;
+    margin: 0 10px;
 }
 
 .nav-link a
 {
 	text-decoration: none;
 	color: #E0E1DD;
-	font-size: 20px;
+	font-size: 19px;
 	font-family: 'Arial';
 }
 
@@ -365,7 +366,6 @@ i
 	width: 180px;
 	height: 40px;
 	border: none;
-	border: solid 2px #1B263B;
 	background-color: #415A77;
 	font-family: 'Arial';
 	color: white;
@@ -434,6 +434,12 @@ i
 	padding: 0 5px;
 	font-size: 17px;
 	font-family: 'Arial';
+	transition: all .2s ease-in-out;
+}
+
+.footer-nav-item:hover
+{
+	color: grey;
 }
 
 .footer-right
@@ -442,9 +448,16 @@ i
 	text-align: center;
 }
 
-.social-btn
+#social-icon
 {
 	padding: 0 5px;
+	font-size: 20px;
+	transition: all .2s ease-in-out;
+}
+
+#social-icon:hover
+{
+	color: grey;
 }
 
 .copyright
@@ -496,21 +509,6 @@ i
     /*---------- FOOTER-RESPONSIVE / END ---------- */
 
 /*---------- FOOTER / END ---------- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
