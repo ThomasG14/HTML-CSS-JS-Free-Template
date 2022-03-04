@@ -400,6 +400,28 @@ i
 
 
 
+/*---------- HOME-ABOUT ---------- */
+	
+	.home-about
+	{
+		
+	}
+
+	/*---------- HOME-ABOUT-RESPONSIVE ---------- */
+    @media screen and (max-width: 990px)
+    {
+ 
+    }
+    /*---------- HOME-ABOUT-RESPONSIVE / END ---------- */
+
+/*---------- HOME-ABOUT / END ---------- */
+
+
+
+
+
+
+
 /*---------- FOOTER ---------- */
 
 
@@ -476,7 +498,7 @@ i
 	/*---------- FOOTER-RESPONSIVE ---------- */
     @media screen and (max-width: 990px)
     {
-    	   	.container-footer
+    	.container-footer
 		{
 			flex-direction: column;
 			justify-content: center;
