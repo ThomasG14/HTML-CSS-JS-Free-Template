@@ -156,6 +156,7 @@ i
             transform: translateY(-110%);
             transition: transform 0.7s;
             margin-top: 0;
+            z-index: 3;
         }
 
         .nav-phone-header
@@ -406,44 +407,133 @@ i
 	
 	.home-about-content
 	{
-		
+		background-color: #191919;
+		color: #E0E1DD;
+		width: 70%;
+		height: 350px;
+		margin: 50px 0 300px 0;
+		padding: 20px 0 20px 80px;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
 	}
 
 	.home-about-txt
 	{
-
+		width: 50%;
 	}
 
 	.home-about-txt h2
 	{
-		
+		margin: 10px 0 10px 0 ;
+		text-align: center;
 	}
 
 	.home-about-txt p
 	{
-		
+		margin: 0 0 10px 0;
+		text-align: justify;
+		font-size: 18px;
+		font-family: 'Arial';
 	}
 
 	.home-about-img
 	{
-
-	}
-
-	.home-about-img img
-	{
-		
+		position: relative;
+		top: 130px;
+		left: 130px;
 	}
 
 	/*---------- HOME-ABOUT-RESPONSIVE ---------- */
     @media screen and (max-width: 990px)
     {
- 
+		.home-about-content
+		{
+			width: 100%;
+			margin: 0 0 50px 0;
+			height: auto;
+			padding: 20px 0 20px 0;
+			justify-content: center;
+			flex-direction: column;
+		}
+
+		.home-about-txt
+		{
+			width: 100%;
+			padding: 0 25px 0 25px;
+		}
+
+		.home-about-txt p
+		{
+			margin: 0 0 10px 0;
+			text-align: justify;
+			font-size: 18px;
+			font-family: 'Arial';
+		}
+
+		.home-about-img
+		{
+			position: none;
+			top: 0;
+			left: 0;
+		}
+		.home-about-img img
+		{
+			max-width: 100%;
+			padding: 25px;
+		}
     }
     /*---------- HOME-ABOUT-RESPONSIVE / END ---------- */
 
 /*---------- HOME-ABOUT / END ---------- */
 
 
+
+
+
+/*---------- HOME-GALLERY ---------- */
+
+.home-gallery-container
+{
+	width: 100%;
+	margin: 50px 0 90px 0;
+	padding: 50px 0;
+	background-color: #191919;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.home-gallery-container img
+{
+	max-width: 18%;
+}
+
+	/*---------- HOME-GALLERY-RESPONSIVE ---------- */
+    @media screen and (max-width: 990px)
+    {
+ 
+    	.home-gallery-container
+		{
+			width: 100%;
+			margin: 50px 0 90px 0;
+			padding: 50px 0;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+		}
+
+		.home-gallery-container img
+		{
+			max-width: 100%;
+			padding: 25px;
+		}
+
+
+    }
+    /*---------- HOME-GALLERY-RESPONSIVE / END ---------- */
+
+/*---------- HOME-GALLERY / END ---------- */
 
 
 
@@ -560,12 +650,17 @@ i
 
 
 /*---------- EXEMPLE ---------- */
+
+
+
 	/*---------- EXEMPLE-RESPONSIVE ---------- */
     @media screen and (max-width: 990px)
     {
  
+
+
     }
-    /*---------- EXEMPLE / END ---------- */
+    /*---------- EXEMPLE-RESPONSIVE / END ---------- */
 
 /*---------- EXEMPLE / END ---------- */
 
